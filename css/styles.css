@@ -15,7 +15,6 @@ body {
 }
 
 
-
 nav {
     position: fixed;
     background-color: #16416B;
@@ -151,4 +150,50 @@ blockquote cite {
     clear: left; 
     display: block; 
     margin-top: 10px; 
+}
+
+.contact-form {
+    display: none; 
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-form label {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 8px;
+}
+
+.contact-form input[type="checkbox"] {
+    margin-right: 10px; 
+}
+
+.contact-form button {
+    background-color: #b4b3b3;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
 }
